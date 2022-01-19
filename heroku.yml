@@ -1,0 +1,3 @@
+
+run:
+  web: bash start.sh
