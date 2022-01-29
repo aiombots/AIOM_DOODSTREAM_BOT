@@ -17,17 +17,17 @@ async def addApiHandler(bot:Update, msg:Message):
                 if await isApiValid(apiKey, bot, msg):
                     addApiKey(apiKey, userid)
                     await msg.reply_text(
-                        "<b>Your API Key has been added successfully🥳🥳.</b>",
+                        "<b>Yᴏᴜʀ Aᴘɪ Kᴇʏ Hᴀs Bᴇᴇɴ Aᴅᴅᴇᴅ Sᴜᴄᴄᴇssꜰᴜʟʟʏ</b>",
                         parse_mode = "html"
                     )
             else:
                 await msg.reply_text(
-                    "<b>Your API Key is already added🤪.</b>",
+                    "<b>Yᴏᴜʀ Aᴘɪ Kᴇʏ Is Aʟʀᴇᴀᴅʏ Aᴅᴅᴇᴅ</b>",
                     parse_mode = "html"
                 )
         else:
             await msg.reply_text(
-                "<b>Invalid Command⛔\nSend API Key like this <code>/add APIKEY</code>\n\nIf facing any problem🥲 then ask at😊 @HB4All1_Bot </b>",
+                "<b>Iɴᴠᴀʟɪᴅ Cᴏᴍᴍᴀɴᴅ\nSᴇɴᴅ Aᴘɪ Kᴇʏ Lɪᴋᴇ Tʜɪs <code>/add APIKEY</code>\n\nFᴏʀ Sᴜᴘᴘᴏʀᴛ Asᴋ Aᴛ : @AIOM_BOTS_GROUP</b>",
                 parse_mode = "html"
             )
     return
