@@ -34,7 +34,7 @@ if __name__ == "__main__" :
         root="plugins"
     )
 
-class Translation(object):
+class Main(object):
     app = Client(
         "DoodStreamUploaderBot",
         bot_token=Config.BOT_TOKEN,
