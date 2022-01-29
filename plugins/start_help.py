@@ -4,7 +4,6 @@
 ### Importing
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from main import Main
 
 
 @app.on_message(filters.command("start"))
