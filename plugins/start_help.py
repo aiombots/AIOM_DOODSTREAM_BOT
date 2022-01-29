@@ -12,10 +12,10 @@ async def start_message(bot, message):
     await message.reply_text(
         text="Hᴇʟʟᴏ 👋,\n\nTʜɪs Is A Dᴏᴏᴅ Sᴛʀᴇᴀᴍ Uᴘʟᴏᴀᴅᴇʀ Bᴏᴛ\n\nYᴏᴜ Cᴀɴ Uᴘʟᴏᴀᴅ Vɪᴅᴇᴏ Fʀᴏᴍ Dɪʀᴇᴄᴛ/Rᴀᴡ Uʀʟ Tᴏ Dᴏᴏᴅ Dᴛʀᴇᴀᴍ\n\nCʟɪᴄᴋ Oɴ /help Fᴏʀ Mᴏʀᴇ Dᴇᴛᴀɪʟs\n\nPᴏᴡᴇʀᴅ Bʏ : @AIOM_BOTS",
         reply_markup=InlineKeyboardMarkup( [[
-            InlineKeyboardButton("", url=""),
-            InlineKeyboardButton("", url="")
+            InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/AIOM_BOTS"),
+            InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/AIOM_BOTS_GROUP")
             ],[
-            InlineKeyboardButton("", url="")
+            InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/aiombots/dood")
             ]]
             )
        )
