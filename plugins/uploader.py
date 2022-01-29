@@ -25,7 +25,7 @@ async def urlUploaderHandler(bot:Update, msg:Message):
                 url = msg.text
                 if " " in url:
                     return await msg.reply_text(
-                        "<b>Given URL is Invalid.</b>",
+                        "<b>Gɪᴠᴇɴ Uʀʟ Is Iɴᴠᴀʟɪᴅ.</b>",
                         parse_mode = "html"
                     )
             url = url.strip()
@@ -34,17 +34,17 @@ async def urlUploaderHandler(bot:Update, msg:Message):
             if fileID:
                 fileurl = f'https://dood.la/d/{fileID}'
                 await msg.reply_text(
-                    f"<b>Your file will be uploaded soon😊 on this url :\n<code>{fileurl}</code></b>",
+                    f"<b>Yᴏᴜʀ Fɪʟᴇ Wɪʟʟ Bᴇ Uᴘʟᴏᴀᴅᴇᴅ Sᴏᴏɴ Oɴ Tʜɪs Uʀʟ :\n<code>{fileurl}</code></b>",
                     parse_mode = "html"
                 )
             else:
                 await msg.reply_text(
-                    "<b>😢Unable to upload your file. Something Went Wrong.</b>",
+                    "<b>Uɴᴀʙʟᴇ Tᴏ Uᴘʟᴏᴀᴅ Yᴏᴜʀ Fɪʟᴇ. Sᴏᴍᴇᴛʜɪɴɢ Wᴇɴᴛ Wʀᴏɴɢ.</b>",
                     parse_mode = "html"
                 )
         else:
             await msg.reply_text(
-                "<b>Your API Key is not Added\nAdd your API Key by using <code>/add APIKEY</code>.</b>",
+                "<b>Yᴏᴜʀ Aᴘɪ Kᴇʏ Is Nᴏᴛ Aᴅᴅᴇᴅ\nAᴅᴅ Yᴏᴜʀ Aᴘɪ Kᴇʏ Bʏ Usɪɴɢ <code>/add APIKEY</code>.</b>",
                 parse_mode = "html"
             ) 
     return
