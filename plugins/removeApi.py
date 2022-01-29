@@ -13,12 +13,12 @@ async def removeApiHandler(bot:Update, msg:Message):
         if apiExist(userid):
             removeApiKey(userid)
             await msg.reply_text(
-                "<b>Your API Key is removed successfully😢.\nYou can add again by using <code>/add APIKEY</code>.</b>",
+                "<b>Yᴏᴜʀ Aᴘɪ Kᴇʏ Is Rᴇᴍᴏᴠᴇᴅ Sᴜᴄᴄᴇssꜰᴜʟʟʏ</b>",
                 parse_mode = "html"
             )
         else:
             await msg.reply_text(
-                "<b>I am unable😓 to find your API Key in database.\nMake sure it was added before😒.</b>",
+                "<b>I Aᴍ Uɴᴀʙʟᴇ Tᴏ Fɪɴᴅ Yᴏᴜʀ Aᴘɪ Kᴇʏ Iɴ Dᴀᴛᴀʙᴀsᴇ.\nMᴀᴋᴇ Sᴜʀᴇ Iᴛ Wᴀs Aᴅᴅᴇᴅ Bᴇꜰᴏʀᴇ.</b>",
                 parse_mode = "html"
             )
     return
