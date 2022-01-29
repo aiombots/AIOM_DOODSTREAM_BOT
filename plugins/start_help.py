@@ -2,7 +2,8 @@
 
 
 ### Importing
-from botModule.importCommon import *
+from pyrogram import Client, filters
+from pyrogram.types import Message
 
 
 ### Start & Help Handler
