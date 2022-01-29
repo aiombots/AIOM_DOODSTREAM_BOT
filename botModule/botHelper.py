@@ -128,7 +128,7 @@ async def isApiValid(
                 return True
             else:
                 await msg.reply_text(
-                    "<b>Given API Key is Invalid😒.</b>",
+                    "<b>Given API Key is Invalid</b>",
                     parse_mode = "html"
                 )
         else:
