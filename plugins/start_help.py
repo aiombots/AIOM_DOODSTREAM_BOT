@@ -14,7 +14,7 @@ async def start_message(bot, message):
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/AIOM_BOTS"),
             InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/AIOM_BOTS_GROUP")
             ],[
-            InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/aiombots/AIOM_DOODSTREAM_BOT/edit/master/plugins/start_help.py")
+            InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/AJTimePyro/DoodStreamUploaderBot")
             ]]
             )
        )
