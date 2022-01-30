@@ -5,4 +5,4 @@
 
 # Cʀᴇᴅɪᴛꜱ
 
-Code By : [AJTimePyro](https://github.com/AJTimePyro)
+**Code By :** [AJTimePyro](https://github.com/AJTimePyro)
